@@ -1,15 +1,26 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import React from 'react';
+import AppNavigation from './src/navigation';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Delivery App...</Text>
-    </View>
-  );
+  return <AppNavigation />;
 }
 
+/*
+import React from 'react';
+import {StyleSheet, TouchableOpacity} from "react-native";
+
+import {RFValue} from "react-native-responsive-fontsize";
+
+export default function ItemCard (){
+        return (
+            <TouchableOpacity style={styles.container}>
+
+            </TouchableOpacity>
+        );
+    }
+;
+
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: "center", justifyContent: "center" },
-  text: { fontSize: 30, fontFamily: "SFProDisplay-Regular" },
-});
+    container: {}
+})
+ */
